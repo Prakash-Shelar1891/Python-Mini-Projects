@@ -40,7 +40,7 @@ while True:
         #print(comp)
 
         level = input("\nChoose your dificulty level, Type 'Easy' or 'Hard': ").lower()
-
+        print("\nGuess number between 1 to 100")
         if level == 'easy':
             level = 10
         elif level == 'hard':
